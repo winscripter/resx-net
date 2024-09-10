@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ResX.NET</id>
+    <version>1.0.0</version>
+    <title>ResX.NET</title>
+    <authors>winscripter</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/winscripter/resx-net</projectUrl>
+    <description>Cross-platform, high-performance, lightweight, simple ResX file manipulation library</description>
+    <copyright>Copyright (c) winscripter, 2024</copyright>
+    <tags>resx dotnet .net il cil csharp resource resources</tags>
+    <repository type="git" url="https://github.com/winscripter/resx-net" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\User\source\repos\ResX.NET\ResX.NET\bin\Debug\net6.0\ResX.NET.dll" target="lib\net6.0\ResX.NET.dll" />
+    <file src="C:\Users\User\source\repos\ResX.NET\ResX.NET\Icon.png" target="\Icon.png" />
+    <file src="C:\Users\User\Documents\readm\resxdn\README.md" target="\README.md" />
+  </files>
+</package>

@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Company>winscripter</Company>
+    <AssemblyTitle>ResX.NET.dll</AssemblyTitle>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <PackageId>ResX.NET</PackageId>
+    <Title>ResX.NET</Title>
+    <Version>1.0.0</Version>
+    <Authors>winscripter</Authors>
+    <Product>ResX.NET</Product>
+    <Description>Cross-platform, high-performance, lightweight, simple ResX file manipulation library</Description>
+    <Copyright>Copyright (c) winscripter, 2024</Copyright>
+    <PackageProjectUrl>https://github.com/winscripter/resx-net</PackageProjectUrl>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/winscripter/resx-net</RepositoryUrl>
+    <PackageTags>resx dotnet .net il cil csharp resource resources</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Documents\readm\resxdn\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
