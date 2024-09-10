@@ -1,4 +1,6 @@
 # ResX.NET
+NuGet: https://nuget.org/packages/ResX.NET
+
 Easy manipulation of ResX files.
 
 Runs on .NET 6.0 and later. Cross platform and high performance.
